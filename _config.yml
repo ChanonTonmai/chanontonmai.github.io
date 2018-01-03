@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Joe's Blog"
+title                    : "ChanonTonmai"
 title_separator          : "-"
-name                     : "hijiangtao"
-description              : "All I'm saying is inside, I had the element of surprise."
+name                     : "Chanon"
+description              : "For This Time Only Never Again"
 url                      : # "https://hijiangtao.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "hijiangtao/hijiangtao.github.io"
+repository               : "ChanonTonmai/chanontonmai.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -21,7 +21,7 @@ comments:
   provider               : "disqus"
   # duoshuo                : datablog
   disqus:
-    shortname            : hijiangtao
+    shortname            : ChanonTonmai
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -78,16 +78,16 @@ social:
 analytics:
   provider               : "google"
   google:
-    tracking_id          : "UA-48887175-1"
+    tracking_id          : #"UA-48887175-1"
 
 
 # Site Author
 author:
-  name             : "hijiangtao"
+  name             : "ChanonTonmai"
   avatar           : "bio-photo.jpg"
-  bio              : "VIS and FE."
-  location         : "Beijing, China"
-  email            : "hijiangtao@gmail.com"
+  bio              : #"VIS and FE."
+  location         : "Bangkok, Thailand"
+  email            : "Chanon.khong@mail.kmutt.ac.th"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,23 +95,23 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : hijiangtao
+  github           : ChanonTonmai
   google_plus      :
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         : hijiangtao
+  linkedin         : ChanonTonmai
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : hijiangtao
+  twitter          : ChanonTonmai
   vine             :
-  weibo            : hijiangtao
+  weibo            : 
   xing             :
   youtube          :
-  cv               : "/assets/doc/TaoJiang-ResumeCN.pdf"
+  cv               : "/assets/doc/tonmai_resume.pdf"
 
 
 # Reading Files
