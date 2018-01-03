@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Experience
-comments: true
 permalink: /experience
 thread: 1
 ---
