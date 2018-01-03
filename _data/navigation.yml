@@ -3,17 +3,14 @@ main:
   - title: "Posts"
     url: /posts
 
-  - title: "Categories"
-    url: /categories
-
-  - title: "Tags"
-    url: /tags
+  - title: "About"
+    url: /about
 
   - title: "Portfolio"
     url: /portfolio
 
-  - title: "Guestbook"
-    url: /guestbook
+  - title: "My Experience"
+    url: /experience
 
   - title: "About"
     url: /about
