@@ -10,6 +10,6 @@ TEst with experience
 
 {{ site | jsonify }}
 
-{% for experience in site.experience reversed %}
+{% for post in site.experience reversed %}
   {% include archive-single.html %}
 {% endfor %}
