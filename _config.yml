@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "ChanonTonmai"
-title_separator          : "-"
+title_separator          : "title_separator"
 name                     : "Chanon"
 description              : "For This Time Only Never Again"
 url                      : # "https://hijiangtao.github.io"
