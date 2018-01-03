@@ -1,6 +1,7 @@
 ---
 date: 2015-12-21
 layout: experience
+collection: experience
 title: experience！
 thread: 9
 categories: Student
