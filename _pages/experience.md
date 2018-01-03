@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title: Experience
 permalink: /experience
 thread: 1
@@ -11,5 +11,4 @@ TEst with experience1
 
 {% for post in site.experience reversed %}
   {% include archive-single.html %}
-  hello
 {% endfor %}
