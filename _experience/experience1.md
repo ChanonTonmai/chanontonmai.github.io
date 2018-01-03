@@ -3,6 +3,7 @@ date: 2015-12-21
 layout: experience
 collection: experience
 title: experience！
+permalink: /experience/experience1
 thread: 9
 categories: Student
 tags: [BIT]
