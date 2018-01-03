@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 1"
-collection: experience
-type: "Undergraduate course"
-permalink: /experience/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+date: 2013-12-21
+layout: experience
+title: experience！
+thread: 9
+categories: Student
+tags: [BIT]
+excerpt: Goodbye, my 2013.
 ---
 
 ![2013](/assets/in-post/2013-12-21-tendaysleft.jpg)
