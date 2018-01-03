@@ -6,9 +6,9 @@ title: "About"
 
 {% include base_path %}
 
-TEducation
+Education
 ======
-* B.Eng in Electronic Engineering, King Mongkut's University of Technology Thonburi, 2018
+* B.Eng in Electronic Engineering, King Mongkut's University of Technology Thonburi
 
 
 Work experience
