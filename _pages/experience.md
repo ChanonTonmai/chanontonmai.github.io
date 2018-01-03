@@ -8,6 +8,6 @@ permalink: /experience
 
 TEst with experience
 
-{% for post in site.experience reversed %}
+{% for experience in site.experience reversed %}
   {% include archive-single.html %}
 {% endfor %}
