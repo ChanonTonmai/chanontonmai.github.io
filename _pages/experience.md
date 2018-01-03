@@ -1,8 +1,7 @@
 ---
 layout: archive
-title: My Experience
+title: "My Experience"
 permalink: /experience
-thread: 1
 ---
 
 {% include base_path %}
