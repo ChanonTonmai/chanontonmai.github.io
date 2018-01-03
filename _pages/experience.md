@@ -8,7 +8,6 @@ permalink: /experience
 
 TEst with experience
 
-{{ site | jsonify }}
 
 {% for post in site.experience reversed %}
   {% include archive-single.html %}
