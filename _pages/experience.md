@@ -6,8 +6,7 @@ permalink: /experience
 
 {% include base_path %}
 
-TEst with experience1
-Hello World
+ประสบการ์ณ การท่องเที่ยว และ อื่นๆ 
 
 {% for post in site.experience reversed %}
   {% include archive-single.html %}
