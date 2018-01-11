@@ -8,9 +8,6 @@ permalink: /experience
 
 ประสบการ์ณ การท่องเที่ยว และ อื่นๆ
 
-
-
-
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.experience %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
