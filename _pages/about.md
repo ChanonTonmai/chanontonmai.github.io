@@ -6,12 +6,12 @@ title: "About Me"
 
 
 
-##Education
+Education
 ======
 * B.Eng in Electronic Engineering, King Mongkut's University of Technology Thonburi
 
 
-##Work experience
+Work experience
 ======
 * Dec 2017 - Now : Researcher
   * vDeSi Laboratory, KMUTT
@@ -23,7 +23,7 @@ title: "About Me"
   * Duties included: FPGA Hardware Engineer Intern
   * Supervisor: Mr. Surachate Chompol
 
-##Skills
+Skills
 ======
 * Programming => Over 2000 lines :
   * C / C++ / VHDL / Matlab / Python / Latex
@@ -32,13 +32,13 @@ title: "About Me"
   * ARM Cortex
   * Arduino and Raspberry Pi
 
-##Publications
+Publications
 ======
 K. Chanon, K. Pinit, S. Watcharapan, C. Teerasak, C. Surachate and I. Masami, ”A
 Hardware Implementation for Real-Time Lane Detection using High-Level
 Synthesis,” 2018 International Workshop on Advanced Image Technology (IWAIT),
 Chiang Mai, Thailand, 2018.
 
-##Teaching
+Teaching
 ======
 Teacher Assistant ENE 231 Digital Circuit Design and Logic Design
