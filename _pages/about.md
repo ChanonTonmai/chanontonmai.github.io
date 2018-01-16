@@ -22,11 +22,11 @@ Work experience
   * TOYOTA TSUSHO NEXTY ELECTRONIC THAILAND
   * Duties included: FPGA Hardware Engineer Intern
   * Supervisor: Mr. Surachate Chompol
-  
+
 Skills
 ======
 * Programming => Over 2000 lines :
-  * C * C++ * VHDL * Matlab * Python * Latex 
+  * C * C++ * VHDL * Matlab * Python * Latex
 * Hardware Experience
   * Xilinx Zynq Platform
   * ARM Cortex
@@ -34,22 +34,11 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+K. Chanon, K. Pinit, S. Watcharapan, C. Teerasak, C. Surachate and I. Masami, ”A
+Hardware Implementation for Real-Time Lane Detection using High-Level
+Synthesis,” 2018 International Workshop on Advanced Image Technology (IWAIT),
+Chiang Mai, Thailand, 2018.
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Teacher Assistant ENE 231 Digital Circuit Design and Logic Design
