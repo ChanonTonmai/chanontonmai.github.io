@@ -1,97 +1,66 @@
 ---
-layout: home
-title: BLOG
-description: "The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania."
-headline: An Engineer's Diary
-tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar]
+layout: default
+menu: home
+css: ['index.css', 'sidebar-popular-repo.css']
 ---
-{% if site.paginate %}
-	{% for post in paginator.posts %}
-    <article class="notepad-index-post post row">
-        <div class="small-12 medium-3 large-2 columns datetime">
-            <span class="notepad-post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <span class="day">
-                        {{ post.date | date: "%d" }}
-                    </span>
-                    <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                    </span>
-                </time>
-            </span>
+<section class="jumbotron">
+    <div class="container">
+        <h1>{{ site.title }}</h1>
+        <div id="jumbotron-meta-info">
+            {% if site.location %}
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                {{ site.location }}
+            </span> {% endif %}
+            {% if site.company %}
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-organization"></span>
+                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span> {% endif %}
+            {% if site.github_username %}
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-mark-github"></span>
+                <a href="{{ site.github_url }}" target="_blank">@{{ site.github_username }}</a>
+            </span> {% endif %}
         </div>
-        <div class="small-12 medium-9 large-10 columns">
-            <header class="notepad-post-header">
-                <h3 class="notepad-post-title">
-                    <a href="{{ site.url }}{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                </h3>
-            </header>
-            <section class="notepad-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:40 }}</p>
-            </section>
-            
-                <div class="notepad-index-post-tags">
-                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
-                </div>
-            
-        </div>
-    </article>
-	{% endfor %}
-    <nav class="pagination" role="navigation">
-    {% if paginator.previous_page %}
-	    {% if paginator.previous_page == 1 %}
-	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
-	    {% else %}
-	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
-	    {% endif %}
-	{% else %}
-    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
-    {% endif %}
+    </div>
+</section>
+<section class="content container">
 
-    
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    	{% if paginator.next_page %} 
-        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
-    	{% else %}
-    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
-    	{% endif %}
-	</nav>
-{% else %}
-	{% for post in site.posts %}
-    <article class="notepad-index-post post row">
-        <div class="small-12 medium-3 large-2 columns datetime">
-            <span class="notepad-post-meta">
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                    <span class="day">
-                        {{ post.date | date: "%d" }}
-                    </span>
-                    <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                    </span>
-                </time>
-            </span>
+    <div class="row">
+
+        <!-- Post List -->
+        <div class="col-md-8">
+
+            <ol class="post-list">
+                {% for post in paginator.posts %}
+                <li class="post-list-item">
+                    <h2 class="post-list-title">
+                        <a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-list-description">
+                        {{ post.excerpt | strip_html | strip }}
+                    </p>
+                    <p class="post-list-meta">
+                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+                    </p>
+                </li>
+                {% endfor %}
+            </ol>
+
+            <!-- Pagination -->
+            {% include pagination.html %}
+
+            <!-- Comments -->
+            {% include disqus-comments.html %}
+
         </div>
-        <div class="small-12 medium-9 large-10 columns">
-            <header class="notepad-post-header">
-                <h3 class="notepad-post-title">
-                    <a href="{{ site.url }}{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                </h3>
-            </header>
-            <section class="notepad-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:100 }}</p>
-            </section>
-            
-                <div class="notepad-index-post-tags">
-                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
-                </div>
-            
+
+        <div class="col-md-4">
+            {% include sidebar-popular-repo.html %}
         </div>
-    </article>
-	{% endfor %}  
-{% endif %}
+
+    </div>
+
+</section>
+
