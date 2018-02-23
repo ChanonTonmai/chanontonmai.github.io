@@ -17,7 +17,7 @@ github_username: # ex. DONGChuan
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
 repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
-exclude: []
+
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
@@ -36,6 +36,7 @@ markdown: kramdown
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
+exclude: []
 
 source:      .
 destination: ./_site
