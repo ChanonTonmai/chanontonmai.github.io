@@ -1,157 +1,117 @@
-title:            Notepad
-description:      "Blogging is fun"
-logo:             logo.png
-disqus_shortname: hmfaysal
-share:            true
-dropcap:			true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  /Notepad
+### GENERAL SETTINGS ###
 
-# Owner/author information
-owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+# Site settings
+title: SOLID.
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://yourdomain.com"
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-# Links to include in footer navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-    external: false
-    icon: home
-  - title: Featured Posts
-    url: /featured
-  - title: Categories
-    url: /categories
-  - title: About
-    url: /about
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
-future:      true
-highlighter: pygments
-markdown:    kramdown
-paginate:    5
-paginate_path: "page:num"
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+### CONTACT SETTINGS ###
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url:
+  - title: twitter
+    url:
+  - title: instagram
+    url:
+  - title: tumblr
+    url:
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/Notepad/'
-  relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
-  media: 'images'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-      - name: "layout"
-        field:
-          element: "hidden"
-          label: "Layout"
-          value: "post"
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-      - name: "description"
-        field:
-          element: "text"
-          label: "Description"
-          placeholder: "Enter Post Description"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
-      - name: "modified"
-        field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          value: personal
-          options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
-          alterable: true
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-      - name: "imagefeature"
-        field:
-          element: "text"
-          label: "Featured Image"
-          placeholder: "somefile.jpg"
-      - name: "mathjax"
-        field:
-          element: "checkbox"
-          label: "MathJax"
-          value: false
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
-      - name: "comments"
-        field:
-          element: "checkbox"
-          label: "Comments"
-          value: false
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+email: hello@solidtheme.com
+tel: +34 8493-4893
 
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Mark Webber
+    position: CEO
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Paul Jameson
+    position: Lead Designer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Laura Sommers
+    position: Lead Developer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team03.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Martin Blunt
+    position: Marketing
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+
+# Testimonial content. Shown on Home and About page.
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO
