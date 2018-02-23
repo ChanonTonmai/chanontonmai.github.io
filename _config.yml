@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tonmai
+title: ต้นไม้
 name: Chanon
 email: Chanon.khong@mail.kmutt.ac.th
-location: BKK,Thailand
+location: Bangkok, Thailand
 company: KMUTT
-company_url: kmutt.ac.th
-github_url: https://github.com/chanontonmai
+company_url: https://kmutt.ac.th
+#github_url: https://github.com/chanontonmai
 description: This is personnel website of chanon
 favicon: favicon.png # Image must be in assets/images
 
-url: http://dongchuan.github.io # the base hostname & protocol for your site
+url: http://chanontonmai.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
