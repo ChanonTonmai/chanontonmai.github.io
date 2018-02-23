@@ -1,43 +1,27 @@
-# [Joe's Blog](https://hijiangtao.github.io/)
+Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
+  
+Main Features:
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd4fd74b864245a391d8678f1f458359)](https://www.codacy.com/app/hijiangtao/hijiangtao.github.io?utm_source=github.com&utm_medium=referral&utm_content=hijiangtao/hijiangtao.github.io&utm_campaign=badger) [![GitHub contributors](https://img.shields.io/github/contributors/hijiangtao/hijiangtao.github.io.svg)]() [![GitHub issues](https://img.shields.io/github/issues/hijiangtao/hijiangtao.github.io.svg)]() [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contribute) [![license](https://img.shields.io/github/license/hijiangtao/hijiangtao.github.io.svg)]() [![Travis](https://img.shields.io/travis/hijiangtao/hijiangtao.github.io/master.svg)]()
+* Zurb Foundation 5 – css framework
+* Scss files with settings file
+* Fullscreen post covers with header wich will be bright or dark according to background image
+* Fast and light
+* Font Awesome
+* Disqus comments integration
 
-## Features
+You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
 
-The blog is based on mmistakes' contribution for [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes). Besides, I create a new layout `keynote`, to combine nicely HTML Presentation content and your blog post.
+Credits:
 
-**Usage**: a extra `iframe` is used to define the url of your HTML Presentation, the format of `keynote` layout shows below: 
+* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
+* Font Awesome [http://fontawesome.io](http://fontawesome.io)
+* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
+* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
+* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
+* There are also tools like jQuery, Modernizr, Normalize.
 
-```
----
-date: XXXX-XX-XX
-layout: keynote
-title: THIS IS YOUR ARTICLE TITLE
-thread: THREAD ID
-categories: CATEGORY
-tags: [tag1, tag2]
-excerpt: Introduction
-iframe: PUT YOUR URL HERE, such as https://hijiangtao.github.io/slides/s-D3-Basic-Tutorial
----
-```
+If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
 
-Progressive Web APP Support: TBD
 
-## Serve locally
-
-```
-git clone git@github.com:hijiangtao/hijiangtao.github.io.git
-bundle exec jekyll serve
-```
-
-## About
-
-[Create](https://github.com/hijiangtao/hijiangtao.github.io/issues/new) a new issue to report bugs or communicate with me about your insights.
-
-This is the source code for my personal website.
-
-Unless stated otherwise, all content is MIT-licensed.
-
-Joe Jiang
-
-2017.2
+Warm Regards and Stay Creative,  
+Hossain Mohd. Faysal
