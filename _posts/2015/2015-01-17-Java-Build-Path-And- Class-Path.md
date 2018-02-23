@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Build Path and Class Path
-category: java
-tags: [java]
+title: ความเป็นมาของภาพในเชิงคอมพิวเตอร์
+category: computer vision
+tags: [computer vision]
 ---
 
 ## Build Path and Class Path
