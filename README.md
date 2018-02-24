@@ -2,3 +2,5 @@
 
 It bases on the my jekyll theme [Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
 \$F(x) = y$\
+
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
