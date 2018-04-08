@@ -49,7 +49,7 @@ menu: Bookmark
 - [CS204](http://complaw.stanford.edu/stanford/) -  Legal Informatics
 - [CS205a](http://graphics.stanford.edu/courses/cs205a/) -  Mathematical Methods for Robotics, Vision, and Graphics
 - [CS205b](https://web.stanford.edu/class/cs205b/) -  Mathematical Methods for Fluids, Solids and Interfaces
-- [CS206](https://web.stanford.edu/class/cs206/ -  Technical Foundations of Electronic Commerce
+- [CS206](https://web.stanford.edu/class/cs206/) -  Technical Foundations of Electronic Commerce
 - [CS207](http://infolab.stanford.edu/pub/gio/CS207/CS207precis.html) -  The Economics of Software
 - [CS208](http://graphics.stanford.edu/courses/cs208-11-spring/) -  Canon of Computer Science
 - [CS209](https://web.stanford.edu/class/cs209/) -  Functional Programming
