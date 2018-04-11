@@ -6,13 +6,14 @@ menu: Bookmark
 ---
 
 ## Stanford CS Course
+### Start with CS1XX
 - [CS101](https://web.stanford.edu/class/cs101/) -  Introduction to Computing Principles
 - [CS102](https://web.stanford.edu/class/cs102/) -  Big Data Tools and Techniques, Discoveries and Pitfalls
 - [CS103](https://web.stanford.edu/class/cs103/) -  Mathematical Foundation of Computing
 - [CS103a](http://web.stanford.edu/class/cs103a/) -  Mathematical Problem-Solving Strategies
 - [CS105](https://web.stanford.edu/class/cs105/) -  Introduction to Computer Science
 - [CS107](https://web.stanford.edu/class/cs107/) -  Computer Organization & Systems
-- [CS108](https://web.stanford.edu/class/cs108/) -  
+- [CS108](https://web.stanford.edu/class/cs108/) -  Object-Oriented Systems Design
 - [CS109](https://web.stanford.edu/class/cs109/) -  Introduction to Probability for Computer Scientists
 - [CS110](http://web.stanford.edu/class/cs110/spring-2018/) -  Principles of Computer Systems
 - [CS121](http://ai.stanford.edu/~latombe/cs121/2011/description.htm) -  Introduction to Artificial Intelligence
@@ -43,6 +44,7 @@ menu: Bookmark
 - [CS196](https://web.stanford.edu/class/cs196/) -  Computer Consulting
 - [CS197](https://web.stanford.edu/class/cs197/) -  UNIX and Leland Systems Consulting
 - [CS198](https://cs198.stanford.edu/cs198/) -  Teaching Computer Science
+### Start with CS2XX
 - [CS221](http://web.stanford.edu/class/cs221/) -  Artificial Intelligent: Principles and Techniques
 - [CS221](http://web.stanford.edu/class/cs221/) -  Artificial Intelligent: Principles and Techniques
 - [CS202](https://web.stanford.edu/class/cs202/) -  Law for Computer Science Professionals
@@ -61,6 +63,7 @@ menu: Bookmark
 - [CS227](http://ggp.stanford.edu/stanford/index.php) -  General Game Playing
 - [CS228](https://cs.stanford.edu/~ermon/cs228/index.html) -  Probabilistic Graphical Models
 - [CS229](http://cs229.stanford.edu/) -  Machine Learning
+- [CS230](http://cs230.stanford.edu/) -  Deep Learning
 - [CS231a](http://web.stanford.edu/class/cs231a/) - Computer Vision, From 3D Reconstruction to Recognition
 - [CS231n](http://cs231n.stanford.edu/) - Convolutional Neural Networks for Visual Recognition
 - [CS234](http://web.stanford.edu/class/cs234/) - Reinforcement Learning
@@ -75,6 +78,7 @@ menu: Bookmark
 - [CS257](http://web.stanford.edu/class/cs257/) - Logic and Artificial Intelligence
 - [CS261](http://web.stanford.edu/class/cs261/) - Optimization and Algorithmic Paradigms
 - [CS262](https://web.stanford.edu/class/cs262/cgi-bin/index.php) - A Zero-Knowledge Based Introduction to Biology
+- [CS265](http://theory.stanford.edu/~valiant/teaching/CS265/index.html) - Randomized Algorithms and Probabilistic Analysis
 - [CS267](http://theory.stanford.edu/~virgi/cs267/) - Graph Algorithms
 - [CS268](http://graphics.stanford.edu/courses/cs268-07-winter/) - Geometric Algorithms
 - [CS273](https://web.stanford.edu/class/cs273/) - Algorithms for Structure and Motion in Biology
@@ -83,7 +87,38 @@ menu: Bookmark
 - [CS278](https://web.stanford.edu/class/cs278/) - Introduction to Systems Biology
 - [CS279](https://web.stanford.edu/class/cs279/) - Computational Biology: Structure and Organization of Biomolecules and Cells
 - [CS298](https://web.stanford.edu/class/cs298/) - Teaching Introductory Computer Science
-- [CS234](http://web.stanford.edu/class/cs234/) - Reinforcement Learning
-- [CS234](http://web.stanford.edu/class/cs234/) - Reinforcement Learning
-- [CS234](http://web.stanford.edu/class/cs234/) - Reinforcement Learning
-- [CS229](http://cs229.stanford.edu/) -  Machine Learning
+
+### Start with CS3XX
+- [CS316](https://lagunita.stanford.edu/courses/Engineering/CS316/Fall2013/info) -  Advanced Multi-core Systems
+- [CS322](http://snap.stanford.edu/na09/) -  (Social and Information) Network Analysis
+- [CS323](https://web.stanford.edu/class/cs323/) -  Understanding Images and Videos: Recognizing and Learning High-Level Visual Concepts
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS331](http://vision.stanford.edu/teaching/cs331_winter14/) -  Advanced Reading in Computer Vision
+- [CS332](https://web.stanford.edu/class/cs332/#!index.md) -  Advanced Survey of Reinforcement Learning
+- [CS334](https://web.stanford.edu/class/cme324/) -  Advanced Methods in Matrix Computations: Iterative Methods
+- [CS339](https://web.stanford.edu/class/cs339/) -  Eigenvalue Computations
+- [CS341](https://web.stanford.edu/class/cs341/) -  Project in Mining Massive Data Sets
+- [CS343](https://web.stanford.edu/class/cs343/) -  Advanced Topics in Compilers
+- [CS344](https://cs344-stanford.github.io/) -  Build an Internet Router
+- [CS345](https://web.stanford.edu/class/cs345/) -  Topics in Data Warehousing
+- [CS346](https://web.stanford.edu/class/cs346/2015/) -  Database System Implementation
+- [CS347](https://web.stanford.edu/class/cs347/) -  Parallel and Distributed Data Management
+- [CS349](https://web.stanford.edu/class/cs349/) -  Advanced Object-Oriented Programming
+- [CS355](https://crypto.stanford.edu/cs355/) -  Topics in Cryptography
+- [CS357](https://web.stanford.edu/class/cs357/) -  Techniques for Program Analysis and Verification
+- [CS368](https://web.stanford.edu/class/cs368/) -  Algorithmic Techniques for Big Data
+- [CS369](https://web.stanford.edu/class/cs326/) -  Topics in Analysis of Algorithms
+- [CS371](https://web.stanford.edu/class/cs371/) -  Computational Biology in Four Dimensions
+- [CS374](https://web.stanford.edu/class/cs374/cgi-bin/2016/index.html) -  Algorithms In Biology
+- [CS376](http://hcicourses.stanford.edu/cs376/2017/) -  Human-Computer Interaction Research
+- [CS378](https://web.stanford.edu/class/cs378/) -  Phenomenological Foundations of Cognition, Language & Computation
+
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
+- [CS326](https://web.stanford.edu/class/cs326/) -  Topics in Advanced Robotic Manipulation
