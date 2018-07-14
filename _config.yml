@@ -82,7 +82,6 @@ side_bar_repo_limit: 5 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [C, C++, Qt, Python, Design Patterns]
+skill_software_keywords: [Computer Vision, Pattern Recognition, Knowledge Engineering, Signal Processing, Embedded System, Design Patterns]
 skill_j2ee_keywords: [VHDL Vivado/ISE based on Xilinx FPGA, Arduino, Raspberry Pi, ARM-Cortex]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Boostrap, Latex]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_web_keywords: [C/C++, Python, JS, Latex, Matlab, ]
