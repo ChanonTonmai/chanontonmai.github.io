@@ -30,75 +30,17 @@
  */
 void displayMST(int graph[V][V], int markedCell[V][V]) {
 
-	int r, c, sum;
-
-	for (r = 0; r < V-1; r++) {
-		for (c = r+1; c < V; c++) {
-			if(markedCell[r][c]) {
-				printf("Edge: %d -- %d\tWeight: %d\n", r, c, graph[r][c]);
-				sum += graph[r][c];
-			}
-		}
-	}
-	printf("			Sum: %d \n", sum);
 
 }
 
 /**
  * prim&aposs algorithm function
  */
-void prim(int graph[V][V]) {
-
-	//variables
-	int i, r, c,
-		solved = 0,
-		count = 0,
-		min,
-		expectedR,
-		expectedC;
-
-	/**
-	 * this array holds the marked cells in the graph
-	 */
-	int markedCell[V][V] = {{0}};
-
-	/**
-	 * this array holds the marked vertices
-	 * 0 = unmarked
-	 * 1 = marked
-	 */
-	int markedVertex[V] = {0};
-	markedVertex[0] = 1;
+void prim(int A[V][V]) {
 
 
-	/**
-	 * find MST
-	 */
-	
-		 * mark the newly found vertex for MST
-		 */
-		if (expectedR != -1 && expectedC != -1) {
-			markedCell[expectedR][expectedC] = 1;
-			markedCell[expectedC][expectedR] = 1;
-			markedVertex[expectedR] = 1;
-			markedVertex[expectedC] = 1;
-		}
 
-		/**
-		 * check if the graph is solved
-		 */
-		for (i = 0; i < V; i++) {
-			if (markedVertex[i]) {
-				count++;
-			}
-		}
-		if (count == V) {
-			solved = 1;
-		}
-
-	}
-
-	displayMST(graph, markedCell);
+	displayMST(A, markedCell);
 
 }
 
@@ -107,16 +49,7 @@ void prim(int graph[V][V]) {
  */
 int main(void) {
 
-	/**
-	 * 2d array which holds the weight of the edges
-	 *
-	 * note!
-	 * graph[][] is a square matrix
-	 * diagonal elements of the graph[][] are zeros
-	 * and elements on either sides are same
-	 * example: element graph[1][0] is same as graph[0][1]
-	 */
-	int graph[V][V] = {
+	int A[V][V] = {
 		{0, 5, 10, INF},
 		{5, 0, 4, 11},
 		{10, 4, 0, 5},
@@ -126,7 +59,7 @@ int main(void) {
 	/**
 	 * find MST using prim
 	 */
-	prim(graph);
+	prim(A);
 
 	return 0;
 }
